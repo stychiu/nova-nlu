@@ -1,0 +1,1712 @@
+{
+	"rasa_nlu_data": {
+		"common_examples": [
+			{
+				"text": "Am I free",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free Sunday March 25th",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free next Friday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free on March 27th",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free on March 30th",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free this Friday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free this Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free today",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free tomorrow",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free tomorrow afternoon",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Am I free tonight",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Any appointments for me this week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Any appointments this weekend?",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Anything happening on GO Train today?",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "Anything happening with the train today",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "Anything in my calendar this weekend",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Anything in my calendar tomorrow?",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Are there any train delays",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "Are we free",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Are we free Friday evening",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Are we free next Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Are we free next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Are we free tomorrow",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Are we free tomorrow night",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Are you taking GO train today",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "Ask Wikipedia about Canada",
+				"intent": "wikipedia",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Canada",
+						"start": 20,
+						"end": 26
+					}
+				]
+			},
+			{
+				"text": "Check my calendar",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Do I have any appointments in May",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Do I have any appointments this week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Do I have any appointments today?",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Do we have any appointments for next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Find Toronto on Wikipedia ",
+				"intent": "wikipedia",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Toronto",
+						"start": 5,
+						"end": 12
+					}
+				]
+			},
+			{
+				"text": "Find tweets about Toronto, posted yesterday and today",
+				"intent": "twitter",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Toronto",
+						"start": 18,
+						"end": 25
+					}
+				]
+			},
+			{
+				"text": "GO Train",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "Get tweets about Canada",
+				"intent": "twitter",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Canada",
+						"start": 17,
+						"end": 23
+					}
+				]
+			},
+			{
+				"text": "How  is  the  weather",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "How  is  the  weather  on  Sunday",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "How does my day look",
+				"entities": [],
+				"intent": "myday"
+			},
+			{
+				"text": "I want to know about GO TRAIN",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "Is there any appointment for me tomorrow",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "List the next 10 events in my calendar",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "Search for \"Nova Scotia\" on Wikipedia",
+				"intent": "wikipedia",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Nova Scotia",
+						"start": 12,
+						"end": 23
+					}
+				]
+			},
+			{
+				"text": "Search twitter for events about Canada",
+				"intent": "twitter",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Canada",
+						"start": 32,
+						"end": 38
+					}
+				]
+			},
+			{
+				"text": "Tell  m e what  time  it  is",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "Tell  me   what  date  it  is",
+				"entities": [],
+				"intent": "date"
+			},
+			{
+				"text": "Tell me about the train",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "Tell me news about GO Train",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "Time  check",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "Toronto",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Toronto",
+						"start": 0,
+						"end": 7
+					}
+				]
+			},
+			{
+				"text": "Train",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "Train delay",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "Use Wikipedia to find information about \"Amsterdam",
+				"intent": "wikipedia",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Amsterdam",
+						"start": 41,
+						"end": 50
+					}
+				]
+			},
+			{
+				"text": "What  date  is  it  today",
+				"entities": [],
+				"intent": "date"
+			},
+			{
+				"text": "What  is  the weather  on Monday",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "What  is  the  date",
+				"entities": [],
+				"intent": "date"
+			},
+			{
+				"text": "What  is  the  time",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "What  is  the  weather",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "What  is  the  weather  in  Toronto  tomorrow",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Toronto",
+						"start": 28,
+						"end": 35
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "What  is  the  weather  in  Vaughan",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Vaughan",
+						"start": 28,
+						"end": 35
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "What  is  today’s  date",
+				"entities": [],
+				"intent": "date"
+			},
+			{
+				"text": "What  time  is  it",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "What  time  is  it  in  San  Francisco  now",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "San  Francisco",
+						"start": 24,
+						"end": 38
+					}
+				],
+				"intent": "time"
+			},
+			{
+				"text": "What  time  is  it  in  Shanghai",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Shanghai",
+						"start": 24,
+						"end": 32
+					}
+				],
+				"intent": "time"
+			},
+			{
+				"text": "What  time  is  it  in Vancouver",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Vancouver",
+						"start": 23,
+						"end": 32
+					}
+				],
+				"intent": "time"
+			},
+			{
+				"text": "What appointments do I have next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "What do I need to know about GO Train today",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "What happened yesterday on the GO Train",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "What is the  time  right  now",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "What is the weather in Hawaii next Wednesday",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Hawaii",
+						"start": 23,
+						"end": 29
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "What's in my calendar",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "What's in my calendar for next week?",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "What's in my calendar this weekend",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "What's new on the go train this afternoon",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "What's the time in Edmonton",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Edmonton",
+						"start": 19,
+						"end": 27
+					}
+				],
+				"intent": "time"
+			},
+			{
+				"text": "What's the weather",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "What's the weather like on Friday",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "What‘s  the  weather  like  in Vaughan",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Vaughan",
+						"start": 31,
+						"end": 38
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "What’s  the  date",
+				"entities": [],
+				"intent": "date"
+			},
+			{
+				"text": "What’s  the  time",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "What’s  the  weather",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "a train delays",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "am I free Friday evening",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "am I free on Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "am I free this Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "am I free this weekend",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "am I free tomorrow afternoon",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "am i free this saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "any appointments for next Sunday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "any appointments for this morning",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "any appointments for this weekend",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "any appointments for today",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "any appointments on Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "any train delays",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "any train delays this morning?",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "any train delays this week",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "any train delays today",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "any train delays tomorrow",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "anything on my calendar this Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "anything on my calendar this weekend",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "are there any train delays",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "are we free tomorrow",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "calendar",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "calendar friday morning",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "calendar next 2 weeks",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "calendar next saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "calendar next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "calendar this week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "calendar this week and next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "calendar today",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "date",
+				"entities": [],
+				"intent": "date"
+			},
+			{
+				"text": "date is it",
+				"entities": [],
+				"intent": "date"
+			},
+			{
+				"text": "do I have any appointment for next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do I have any appointments",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do I have any appointments for this morning",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do I have any appointments for today",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do I have any appointments next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do I have any appointments on Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do I have any appointments this week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do i have an appointment next saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do i have any appoinment next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do i have any appointments next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do we have any appointment in april",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "do we have anything in our calendar tomorrow",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "go train",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "how does my day look",
+				"entities": [],
+				"intent": "myday"
+			},
+			{
+				"text": "how does my day look tomorrow",
+				"entities": [],
+				"intent": "myday"
+			},
+			{
+				"text": "how is my day looking",
+				"entities": [],
+				"intent": "myday"
+			},
+			{
+				"text": "how's the weather in Vaughan tomorrow",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Vaughan",
+						"start": 21,
+						"end": 28
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "how's the weather tomorrow",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "is it going to snow tomorrow",
+				"entities": []
+			},
+			{
+				"text": "please tell me about my day",
+				"entities": [],
+				"intent": "myday"
+			},
+			{
+				"text": "tell me about go train",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "tell me about monday",
+				"entities": [],
+				"intent": "myday"
+			},
+			{
+				"text": "tell me about my day",
+				"entities": [],
+				"intent": "myday"
+			},
+			{
+				"text": "tell me what time it is",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "the appointments for this weekend",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "the weather",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "the weather like in new york",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "new york",
+						"start": 20,
+						"end": 28
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "time",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "time check",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "time is it",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "time is it right now",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "today's news",
+				"entities": []
+			},
+			{
+				"text": "train",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "train delays",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "train delays in March",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "train delays in february",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "train delays this morning",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "train delays today",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "train delays tomorrow",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "train delays yesterday",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "weather",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "weather forecast",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "weather in Hong Kong",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Hong Kong",
+						"start": 11,
+						"end": 20
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "weather in Toronto",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Toronto",
+						"start": 11,
+						"end": 18
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "weather in abc",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "abc",
+						"start": 11,
+						"end": 14
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what appointments do I have for April",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what appointments do I have for March 27th",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what appointments do I have for this week or this weekend",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what appointments do I have for this weekend",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what appointments do I have for tomorrow",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what appointments do I have this weekend",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what date is it today",
+				"entities": [],
+				"intent": "date"
+			},
+			{
+				"text": "what is in my calendar",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what is in my calendar for this Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what is in my calendar this week and next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what is the date",
+				"entities": [],
+				"intent": "date"
+			},
+			{
+				"text": "what is the time",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "what is the time in San Francisco",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "San Francisco",
+						"start": 20,
+						"end": 33
+					}
+				],
+				"intent": "time"
+			},
+			{
+				"text": "what is the time in Vaughan",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Vaughan",
+						"start": 20,
+						"end": 27
+					}
+				],
+				"intent": "time"
+			},
+			{
+				"text": "what is the weather",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in Hong Kong",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Hong Kong",
+						"start": 23,
+						"end": 32
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in Montreal",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Montreal",
+						"start": 23,
+						"end": 31
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in Toronto",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Toronto",
+						"start": 23,
+						"end": 30
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in Toronto tomorrow?",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Toronto",
+						"start": 23,
+						"end": 30
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in Vancouver",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Vancouver",
+						"start": 23,
+						"end": 32
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in boston right",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "boston",
+						"start": 23,
+						"end": 29
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in boston right now",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "boston",
+						"start": 23,
+						"end": 29
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in hong kong",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "hong kong",
+						"start": 23,
+						"end": 32
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in san francisco",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "san francisco",
+						"start": 23,
+						"end": 36
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in tokyo",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "tokyo",
+						"start": 23,
+						"end": 28
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather in toronto",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "toronto",
+						"start": 23,
+						"end": 30
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather today",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "what is the weather?",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "what the weather today",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "what time is it",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "what time is it now",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "what time is it today",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "what was in my calendar in February",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's happening with GO Transit today",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "what's in my calendar",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar Friday and Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar Friday to next Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar for the next two weeks",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar next year",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar on Friday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar this Friday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar this month",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar this week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar this weekend",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar this year",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar today",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar tomorrow",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's in my calendar?",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar Friday evening",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar Friday night",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar Saturday after",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar Saturday afternoon",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar Saturday night",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar Sunday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar for this week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar in April",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar in May",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar next week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar on Friday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar on Saturday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar on Sunday",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar this Friday night",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar this week",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar today",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's on my calendar tomorrow",
+				"entities": [],
+				"intent": "calendar"
+			},
+			{
+				"text": "what's the date",
+				"entities": [],
+				"intent": "date"
+			},
+			{
+				"text": "what's the time",
+				"entities": [],
+				"intent": "time"
+			},
+			{
+				"text": "what's the weather",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "what's the weather in Hong Kong",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Hong Kong",
+						"start": 22,
+						"end": 31
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what's the weather in Toronto",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Toronto",
+						"start": 22,
+						"end": 29
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what's the weather in Troy",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "Troy",
+						"start": 22,
+						"end": 26
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what's the weather in anartica",
+				"entities": [
+					{
+						"entity": "location",
+						"value": "anartica",
+						"start": 22,
+						"end": 30
+					}
+				],
+				"intent": "weather"
+			},
+			{
+				"text": "what's the weather today",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "what's the weather tomorrow",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "what's the weather what's the weather",
+				"entities": [],
+				"intent": "weather"
+			},
+			{
+				"text": "what's up with the go train",
+				"entities": [],
+				"intent": "train"
+			},
+			{
+				"text": "what's in the news",
+				"entities": [],
+				"intent": "news"
+			},
+			{
+				"text": "tell me what's in the news",
+				"entities": [],
+				"intent": "news"
+			},
+			{
+				"text": "what is in the news",
+				"entities": [],
+				"intent": "news"
+			},
+			{
+				"text": "tell me the latest news",
+				"entities": [],
+				"intent": "news"
+			},
+			{
+				"text": "current news",
+				"entities": [],
+				"intent": "news"
+			},
+			{
+				"text": "what top stories are in the news today",
+				"entities": [],
+				"intent": "news"
+			},
+			{
+				"text": "what is in the news today",
+				"entities": [],
+				"intent": "news"
+			},
+			{
+				"text": "what reminders do i have",
+				"entities": [],
+				"intent": "get_reminder"
+			},
+			{
+				"text": "do i have any reminders for today",
+				"entities": [],
+				"intent": "get_reminder"
+			},
+			{
+				"text": "what are my reminders",
+				"entities": [],
+				"intent": "get_reminder"
+			},
+			{
+				"text": "get reminders",
+				"entities": [],
+				"intent": "get_reminder"
+			},
+			{
+				"text": "reminders",
+				"entities": [],
+				"intent": "get_reminder"
+			},
+			{
+				"text": "what are my reminders for tomorrow",
+				"entities": [],
+				"intent": "get_reminder"
+			},
+			{
+				"text": "what is my reminder to go for a run",
+				"entities": [],
+				"intent": "get_reminder",
+				"start": 23,
+				"end": 34
+			},
+			{
+				"text": "what is my reminder to go the grocery store",
+				"entities": [],
+				"intent": "get_reminder",
+				"start": 23,
+				"end": 42
+			},
+			{
+				"text": "my reminders",
+				"entities": [],
+				"intent": "get_reminder"
+			},
+			{
+				"text": "hey",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "howdy",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hey there",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hello",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "hi",
+				"intent": "greet",
+				"entities": []
+			},
+			{
+				"text": "i'm looking for a place to eat",
+				"intent": "restaurant_search",
+				"entities": []
+			},
+			{
+				"text": "i'm looking for a place in the north of town",
+				"intent": "restaurant_search",
+				"entities": [
+					{
+						"start": 31,
+						"end": 36,
+						"value": "north",
+						"entity": "location"
+					}
+				]
+			},
+			{
+				"text": "show me chinese restaurants",
+				"intent": "restaurant_search",
+				"entities": [
+					{
+						"start": 8,
+						"end": 15,
+						"value": "chinese",
+						"entity": "cuisine"
+					}
+				]
+			},
+			{
+				"text": "yes",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "yep",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "yeah",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "show me a mexican place in the centre",
+				"intent": "restaurant_search",
+				"entities": [
+					{
+						"start": 31,
+						"end": 37,
+						"value": "centre",
+						"entity": "location"
+					},
+					{
+						"start": 10,
+						"end": 17,
+						"value": "mexican",
+						"entity": "cuisine"
+					}
+				]
+			},
+			{
+				"text": "bye",
+				"intent": "goodbye",
+				"entities": []
+			},
+			{
+				"text": "goodbye",
+				"intent": "goodbye",
+				"entities": []
+			},
+			{
+				"text": "good bye",
+				"intent": "goodbye",
+				"entities": []
+			},
+			{
+				"text": "stop",
+				"intent": "goodbye",
+				"entities": []
+			},
+			{
+				"text": "end",
+				"intent": "goodbye",
+				"entities": []
+			},
+			{
+				"text": "i am looking for an indian spot",
+				"intent": "restaurant_search",
+				"entities": [
+					{
+						"start": 20,
+						"end": 26,
+						"value": "indian",
+						"entity": "cuisine"
+					}
+				]
+			},
+			{
+				"text": "search for restaurants",
+				"intent": "restaurant_search",
+				"entities": []
+			},
+			{
+				"text": "anywhere in the west",
+				"intent": "restaurant_search",
+				"entities": [
+					{
+						"start": 16,
+						"end": 20,
+						"value": "west",
+						"entity": "location"
+					}
+				]
+			},
+			{
+				"text": "central indian restaurant",
+				"intent": "restaurant_search",
+				"entities": [
+					{
+						"start": 0,
+						"end": 7,
+						"value": "central",
+						"entity": "location"
+					},
+					{
+						"start": 8,
+						"end": 14,
+						"value": "indian",
+						"entity": "cuisine"
+					}
+				]
+			},
+			{
+				"text": "indeed",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "that's right",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "ok",
+				"intent": "affirm",
+				"entities": []
+			},
+			{
+				"text": "great",
+				"intent": "affirm",
+				"entities": []
+			}
+		]
+	}
+}
